@@ -1,0 +1,394 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../images/woman6.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#navbar{
+    height: 19vh;
+    
+}
+#logo_hyper
+{
+    display: inline-block;
+}
+#logo_photo
+{
+    
+    width: 18vh;
+    padding: 0 0 0 49px;
+}
+#links_info
+{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    right: 28vh;
+    position: absolute;
+    padding-top:7vh ;
+}
+.links_name
+{
+    text-decoration: none;
+    color: black;
+    padding-right:9vh ;
+    font-size: 2.7vh;
+}
+#log_photo
+{
+    width: 6vh;
+}
+#cart_photo
+{
+    width: 5vh;
+}
+#login_id
+{
+    padding-right: 1vh;
+}
+#photos_nav
+{
+    display: inline-block;
+    position: absolute;
+    right: 5vh;
+    padding-top: 5vh;
+}
+#log_link
+{
+    padding-right: 2vh;
+}
+#intro_name
+{
+    margin-bottom: 113vh;
+    height: 64vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+}
+#intro_name p
+{
+    font-size: 11vh;
+   
+    width: 72vh;
+    
+    /* background-color: brown; */
+    text-align: center;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+    margin-bottom:-18vh ;
+
+
+}
+#intro_name a img{
+    width: 8vh;
+    border: 3px solid black;
+    border-radius: 50%;
+    opacity: 0.59;
+}
+#massage
+{
+    padding-top: 13vh;
+    padding-left: 13vh;
+    height: 162vh;
+    background-color: white;
+    box-shadow: 2px 1px 7px 1px #898d8fb0;
+}
+.text_massage
+{
+    display: inline-block;
+    /* justify-content: center; */
+    /* text-align: center; */
+    width: 57vh;
+    height: 80vh;
+    /* background-color: bisque; */
+    /* padding-bottom: 16vh; */
+    /* margin: 0px 0 38px 0px; */
+    margin-right: 11vh;
+}
+.heading
+{
+    text-align: center;
+    /* margin: 13vh; */
+    margin-top: 17vh;
+    font-size: 7vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+}
+.info
+{
+    padding-top: 2vh;
+    font-size: 2.3vh;
+    text-align: center;
+    color: #3c3844;
+}
+#photo_massage
+{
+    display: inline-block;
+}
+#photo_massage img{
+    width: 76vh;
+    height: 99vh;
+}
+.message-sub
+{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#photo1 img
+{
+    width: 57vh;
+    height: 71vh;
+   
+}
+#photo1{
+    margin: -49vh 0px 0vh 23vh;
+}
+#photo1 button
+{
+    display: block;
+    color: #2e5661;
+    width: 27vh;
+    height: 27vh;
+    border: 1px solid #2e5661;
+    border-radius: 50%;
+    /* padding-right: 0vh; */
+    margin-left: 16vh;
+    background: transparent;
+    margin-bottom: -7vh;
+    z-index: 1;
+    position: relative;
+    transition-delay: 162ms;
+    font-size: 2vh;
+}
+#photo1 button:hover
+{
+    background-color: #2e5661;
+    color: white;
+}
+#peace
+{
+    text-align: end;
+    /* font-size: 4vh; */
+    height: 30vh;
+    width: 203.4vh;
+    background-color: white;
+}
+#peace-heading
+{
+    height: 10vh;
+    font-size: 7vh;
+    width: 180vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+}
+#peace-info
+{
+    height: 5vh;
+    /* background-color: blue; */
+    /* color: wheat; */
+    font-size: 2.5vh;
+    width: 78vh;
+    position: relative;
+    right: -102vh;
+    line-height: 2.5vh;
+    padding-top: 2vh;
+    color: #3c3844;
+}
+#pool_info
+{
+    padding-left: 28vh;
+    /* background-color: bisque; */
+    height: 108vh;
+    background-color: white;
+}
+.pool_photo
+{
+    width: 44vh;
+    padding-right: 7vh;
+}
+#pool_info button
+{
+    width: 27vh;
+    height: 27vh;
+    border: 1px solid #2e5661;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2vh;
+    margin: 0vh 0px 0px 23vh;
+    position: absolute;
+    color: #2e5661;
+    transition-delay: 162ms;
+}
+   #pool_info button:hover{
+    background-color: #2e5661;
+    color: white;
+   }
+
+#product_photo
+{
+    margin: 0px -21vh 0 0;
+}
+#product_photo img{
+    width: 114vh;
+    height: 129vh;
+}
+#shop-name
+{
+  margin-top: -74vh;
+}
+#shop-name button{
+display: block;
+    width: 27vh;
+    height: 27vh;
+    border: 1px solid #2e5661;
+    background: transparent;
+    border-radius: 50%;
+    color: #2e5661;
+    margin-left: 35vh;
+    font-size: 2vh;
+    padding-bottom: 0vh;
+    margin-bottom: 16vh;
+    
+}
+#shop-name button:hover{
+    background-color: #2e5661;
+    color: white;
+}
+#shop-name img{
+    width: 74vh;
+    height: 100vh;
+}
+.product
+{
+    height: 219vh;
+    background-color: white;
+}
+#opening_name
+{
+    height: 102vh;
+    background-color: white;
+}
+#opening_name img
+{
+    width: 186vh;
+    float: right;
+    height: 89vh;
+    opacity: 0.74;
+}
+#opening_name p
+{
+    position: absolute;
+    /* right: 104vh; */
+    /* bottom: -27vh; */
+    left: 45vh;
+    /* top: 24vh; */
+    font-size: 7vh;
+    width: 59vh;
+    height: 9vh;
+    /* background-color: aquamarine; */
+    bottom: -673vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+}
+#opening_name table{
+    position: absolute;
+    left: 45vh;
+    bottom: -688vh;
+}
+#opening_name table tr th{
+    padding-right: 5vh;
+    font-size: 3vh;
+    padding-top: 6vh;
+    font-family: 'EB Garamond', serif;
+    color: #45555ae0
+}
+#opening_name table tr td{
+    font-size: 2.5vh;
+    padding-top: 1vh;
+}
+#location
+{
+    text-align: center;
+    
+    height: 130vh;
+    background-color: white;
+}
+#location_name
+{
+    height: 7vh;
+    font-size: 7vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+}
+#location-info
+{
+    font-size: 2.5vh;
+    padding-top: 5vh;
+}
+#location img{
+    margin-top: 12vh;
+    margin-right: 4vh;
+    width: 75vh;
+    height: 87vh;
+    /* padding-left: 2vh; */
+    padding-right: -2vh;
+    margin-left: 4vh;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    background-color: #2d5661;
+    height: 67vh;
+    padding-left: 18vh;
+}
+.footer_logo img{
+    width: 28vh;
+    height: 35vh;
+}
+.footer_logo p{
+    padding-top: 17vh;
+    width: 36vh;
+    color: white;
+}
+.options_bar{
+    margin-left: 4vh;
+    color: white;
+}
+.menu_bar{
+    padding-top: 11vh;
+    font-size: 5vh;
+    /* text-align: center; */
+    padding-bottom: 6vh;
+}
+.link_name{
+    text-decoration: none;
+    color: white;
+    /* padding-right: 0vh; */
+    width: 21vh;
+    height: 5vh;
+    display: inline-block;
+    font-size: 3vh;
+}
+.terms{
+    padding-top: 5vh;
+    font-size: 3vh;
+}
+#social
+{
+    line-height: 2;
+    padding-bottom: 2vh;
+    width: 14vh;
+    padding-bottom: 20vh;
+}
+#mail{
+    color: white;
+    padding-bottom: 13vh;
+    /* text-align: -webkit-right; */
+    padding-top: 6vh;
+}

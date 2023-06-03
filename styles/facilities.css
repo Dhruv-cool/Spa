@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 19vh;
+    
+}
+#logo_hyper
+{
+    display: inline-block;
+}
+#logo_photo
+{
+    
+    width: 18vh;
+    padding: 0 0 0 49px;
+}
+#links_info
+{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    right: 28vh;
+    position: absolute;
+    padding-top:7vh ;
+}
+.links_name
+{
+    text-decoration: none;
+    color: black;
+    padding-right:9vh ;
+    font-size: 2.7vh;
+}
+#log_photo
+{
+    width: 6vh;
+}
+#cart_photo
+{
+    width: 5vh;
+}
+#login_id
+{
+    padding-right: 1vh;
+}
+#photos_nav
+{
+    display: inline-block;
+    position: absolute;
+    right: 5vh;
+    padding-top: 5vh;
+}
+#log_link
+{
+    padding-right: 2vh;
+}
+.intro_head{
+    text-align: center;
+    margin-top: 12vh;
+}
+.head{
+    font-size: 7vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 2vh;
+}
+.info{
+    width: 114vh;
+    font-size: 2.5vh;
+    padding-top: 4vh;
+    padding-left: 46vh;
+    line-height: 3vh;
+    color: #3c3844;
+}
+.grid_facilities
+{
+    display: grid;
+    grid-template-columns: 76vh 76vh;
+    text-align: center;
+    justify-content: center;
+    margin-top: 29vh;
+    margin-left: 27vh;
+    /* background-color: antiquewhite; */
+    /* padding-right: 92vh; */
+    margin-right: 24vh;
+    grid-template-rows: 125vh 125vh 125vh 125vh;
+}
+.text_head{
+    padding-top: 34vh;
+    font-size: 6vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+}
+.info_text{
+    width: 46vh;
+    font-size: 2.5vh;
+    /* text-align: center; */
+    padding-left: 15vh;
+    padding-top: 4vh;
+    color: #3c3844;
+    line-height: 1.4;
+}
+.text_grid img{
+    width: 76vh;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    background-color: #2d5661;
+    height: 67vh;
+    padding-left: 18vh;
+}
+.footer_logo img{
+    width: 28vh;
+    height: 35vh;
+}
+.footer_logo p{
+    padding-top: 17vh;
+    width: 36vh;
+    color: white;
+}
+.options_bar{
+    margin-left: 4vh;
+    color: white;
+}
+.menu_bar{
+    padding-top: 11vh;
+    font-size: 5vh;
+    /* text-align: center; */
+    padding-bottom: 6vh;
+}
+.link_name{
+    text-decoration: none;
+    color: white;
+    /* padding-right: 0vh; */
+    width: 21vh;
+    height: 5vh;
+    display: inline-block;
+    font-size: 3vh;
+}
+.terms{
+    padding-top: 5vh;
+    font-size: 3vh;
+}
+#social
+{
+    line-height: 2;
+    padding-bottom: 2vh;
+    width: 14vh;
+    padding-bottom: 20vh;
+}
+#mail{
+    color: white;
+    padding-bottom: 13vh;
+    /* text-align: -webkit-right; */
+    padding-top: 6vh;
+}

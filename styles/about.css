@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/bg_about1_auto_x2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navbar {
+    height: 19vh;
+    background-color: white;
+
+}
+
+#logo_hyper {
+    display: inline-block;
+}
+
+#logo_photo {
+
+    width: 20vh;
+    padding: 0 0 0 49px;
+}
+
+#links_info {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    right: 28vh;
+    position: absolute;
+    padding-top: 7vh;
+}
+
+.links_name {
+    text-decoration: none;
+    color: black;
+    padding-right: 9vh;
+    font-size: 2.7vh;
+}
+
+#log_photo {
+    width: 6vh;
+}
+
+#cart_photo {
+    width: 5vh;
+}
+
+#login_id {
+    padding-right: 1vh;
+}
+
+#photos_nav {
+    display: inline-block;
+    position: absolute;
+    right: 5vh;
+    padding-top: 5vh;
+}
+
+#log_link {
+    padding-right: 2vh;
+}
+
+.about_head {
+    background-color: white;
+    padding-bottom: 1vh;
+}
+
+.about_head p {
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+    font-size: 7vh;
+    padding-left: 33vh;
+    padding-top: 6vh;
+}
+
+.about_info {
+    display: grid;
+    grid-template-columns: 79vh 68vh;
+    justify-content: center;
+    background-color: white;
+    height: 128vh;
+    margin-bottom: 94vh;
+}
+
+#about_photo {
+    margin-top: 10vh;
+}
+
+#about_photo img {
+    width: 74vh;
+    height: 98vh;
+}
+
+#para {
+    margin-top: 10vh;
+}
+
+#para p {
+    color: #3c3844;
+    font-size: 2.3vh;
+    padding-top: 7vh;
+    line-height: 1.5;
+}
+
+#sen {
+    padding-top: 4vh;
+}
+
+#para a {
+    text-decoration: none;
+    color: #2e5661;
+    border: 1px solid #2e5661;
+    border-radius: 50%;
+    width: 23vh;
+    display: block;
+    height: 13vh;
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 9.5vh;
+    margin-top: 8vh;
+    transition-delay: 162ms;
+}
+
+#para a:hover {
+    background-color: #2e5661;
+    color: white;
+}
+
+.testimonial_head {
+    background-color: white;
+    text-align: center;
+    height: 28vh;
+}
+
+.testimonial_head p {
+    padding-top: 11vh;
+    text-align: center;
+    font-size: 7vh;
+    color: #2d5661;
+    font-family: 'EB Garamond', serif;
+}
+
+#testimonial {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 105vh 0vh;
+    padding-top: 5vh;
+    height:111vh ;
+}
+
+.carousel {
+    position: relative;
+    position: relative;
+    padding: 15vh 12vh;
+    text-align: center;
+}
+
+.carousel__item {
+    padding: 10vh 14vh;
+    font-size: 4vh;
+    color:#3c3844 ;
+    display: none;
+    height: 39vh;
+}
+.carousel__item--active{
+    display: block;
+}
+
+.caption {
+    padding-top: 3vh;
+}
+
+.carousel__nav {
+    position: absolute;
+    text-align: center;
+/* background-color: blueviolet; */
+/* padding-left: 28vh; */
+margin-left: 33vh;
+/* padding: 0vh 31vh; */
+/* position: absolute; */
+margin-top: -8vh;
+}
+.carousel__button
+{
+    display: inline-block;
+    height: 1vh;
+    width: 1vh;
+    border-radius: 50%;
+    
+    padding: 0 0vh;
+    background-color: #2e5661;
+    cursor: pointer;
+    position: relative;
+    margin-right: 3vh;
+    bottom: -3vh;
+    right: -3vh;
+}
+.carousel__button--active
+{
+    background-color: white;
+    border: 1px solid #2e5661;
+    width: 1vh;
+    height: 1vh;
+}
+#testimonial_photo img{
+    width:98vh ;
+    height: 86vh;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    background-color: #2d5661;
+    height: 67vh;
+    padding-left: 18vh;
+}
+.footer_logo img{
+    width: 28vh;
+    height: 35vh;
+}
+.footer_logo p{
+    padding-top: 17vh;
+    width: 36vh;
+    color: white;
+}
+.options_bar{
+    margin-left: 4vh;
+    color: white;
+}
+.menu_bar{
+    padding-top: 11vh;
+    font-size: 5vh;
+    /* text-align: center; */
+    padding-bottom: 6vh;
+}
+.link_name{
+    text-decoration: none;
+    color: white;
+    /* padding-right: 0vh; */
+    width: 21vh;
+    height: 5vh;
+    display: inline-block;
+    font-size: 3vh;
+}
+.terms{
+    padding-top: 5vh;
+    font-size: 3vh;
+}
+#social
+{
+    line-height: 2;
+    padding-bottom: 2vh;
+    width: 14vh;
+    padding-bottom: 20vh;
+}
+#mail{
+    color: white;
+    padding-bottom: 13vh;
+    /* text-align: -webkit-right; */
+    padding-top: 6vh;
+}
+
+.arrow{
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+}
+.left
+{
+    left:18vh ;
+}
+.right
+{
+    right:19vh ;
+}
